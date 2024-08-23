@@ -1,0 +1,118 @@
+*{
+  margin: 0px;
+
+}
+.bg-container{
+  display: flex;
+  
+}
+.card-1{
+  background-color: #1a171d;
+  height: 100vh;
+  min-width: 35vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding: 15px;
+}
+.heading{
+  /* font-family: "Roboto"; */
+  font-size: 30px;
+  color: #f3aa4e;
+  font-weight: 500;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+.input-con-1{
+  margin-bottom: 20px;
+}
+.input-con-1 p{
+  color: #fff;
+ font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.input-1{
+  height: 30px;
+  width: 30vw;
+  outline: none;
+  padding-left: 10px;
+}
+.input-con-2 {
+  margin-bottom: 20px;
+}
+.input-con-2 p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.input-2{
+  height: 35px;
+  width: 32vw;
+  outline: none;
+  padding-left: 10px;
+}
+.add-task-button{
+  height: 30px;
+  width: 100px;
+  color: #fff;
+  background-color: #f3aa4e;
+  border-width: 0px;
+  border-radius: 3px;
+}
+
+.card-2{
+  background-color: #000000;
+  min-height: 100vh;
+  min-width: 70vw;
+  padding: 10px;
+}
+.card-2 h1{
+  color: #fff;
+  font-size: 30px;
+    
+  font-weight: 500;
+  padding-top: 45px;
+  padding-bottom: 15px;
+
+}
+
+.button-con button{
+  height: 25px;
+  background-color: #000000;
+  color: #fff;
+  border: 1px solid #f3aa4e;
+  border-radius: 12px;
+  margin: 5px;
+  font-size: 12px;
+  padding: 5px 15px 5px 15px;
+}
+.unorder-list{
+   padding: 0px;
+}
+.list-item{
+  background-color: #1a171d;
+  display: flex;
+  margin: 15px;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+.list-item p{
+  color: #fff;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+.list-item button{
+  background-color: #f3aa4e;
+  border-radius: 15px;
+  margin-right: 10px;
+  color: #000000;
+  border-width: 0px;
+  padding: 5px 15px 5px 15px;
+}
